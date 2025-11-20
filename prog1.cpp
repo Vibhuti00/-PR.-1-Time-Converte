@@ -7,7 +7,6 @@ public:
     int h; // HOURS
     int m; // MINUTES
     int s; // SECONDS
-
 public:
     // METHOD
     void setSeconds(int total_seconds)
@@ -31,3 +30,4 @@ int main()
     t.getTime();
     return 0;
 }
+
