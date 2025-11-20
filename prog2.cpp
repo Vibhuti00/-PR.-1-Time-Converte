@@ -2,10 +2,11 @@
 using namespace std;
 class Time
 {
+     // FORMAT MODIFIERS
 public:
     int h, m, s;
-
 public:
+    // METHOD
     void setTime(int hours, int minutes, int seconds)
     {
         h = hours;
@@ -32,3 +33,4 @@ int main()
     t.getTotal_seconds();
     return 0;
 }
+
